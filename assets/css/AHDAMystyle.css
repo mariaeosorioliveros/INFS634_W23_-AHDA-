@@ -1,0 +1,25 @@
+body {
+    background-color:rgba(230, 241, 201, 1);
+}
+
+.dropdown-menu {
+    border-radius: 0; 
+    border: none
+}
+.dropdown-menu ul{
+    background-color:rgba(25, 51, 39, 1);
+    list-style: none;
+    padding: 0;
+}
+.dropdown-menu.show{
+    display: flex;
+}
+
+footer {
+    height: 15vh;
+    position: absolute;
+    background-color: #5C7E66;
+    width: 100%;
+    height: 15vh;
+    bottom: 0; 
+}

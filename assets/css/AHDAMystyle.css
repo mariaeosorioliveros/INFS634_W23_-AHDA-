@@ -2,6 +2,10 @@ body {
     background-color:rgba(230, 241, 201, 1);
 }
 
+.navbar {
+    color:rgba(25, 51, 39, 1)
+
+}
 .dropdown-menu {
     border-radius: 0; 
     border: none
@@ -14,6 +18,23 @@ body {
 .dropdown-menu.show{
     display: flex;
 }
+.dropdown-menu li a{
+    color:rgba(25, 51, 39, 1);
+    text-align: center;
+}
+
+.dropdown-menu li:first-child a{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width:993px){
+    .dropdown-menu.show {
+        display: flex;
+    }
+}
+    
+
 
 footer {
     height: 15vh;

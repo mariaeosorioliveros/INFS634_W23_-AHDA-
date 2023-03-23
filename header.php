@@ -1,7 +1,7 @@
 <header>
   <div class="container-fluid text-center">
-    <img src="/assets/img/AH DA_final_logo _header.png" class="mx-auto d-block" alt="ahdaheaderlogo" width="270" height="270">
-    American Herbolaria Digital Archive
+    <img src="/assets/img/AH DA_final_logo _header.png" class="mx-auto d-block" alt="ahdaheaderlogo" width="275" height="275">
+    <h2 class= "logoheader"> AMERICAN HERBOLARIA DIGITAL ARCHIVE </h2>
   </div>
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(230,241,201);" >

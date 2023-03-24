@@ -1,7 +1,8 @@
 <header>
-  <div class= "header" class="container-fluid text-center">
-    <img src="/assets/img/AH DA_final_logo _header.png" class="mx-auto d-block" alt="ahdaheaderlogo" width="275" height="275">
-    <h2 class= "logoheader"> AMERICAN HERBOLARIA DIGITAL ARCHIVE </h2>
+  <div class="container-fluid">
+    <img src="/assets/img/logo.jpg" class="mx-auto d-block" alt="ahdaheaderlogo" width="370" height="200">
+    <span class="logoname"> AMERICAN HERBOLARIA DIGITAL ARCHIVE </span>
+    <h2 class= "logoheader">AMERICAN HERBOLARIA DIGITAL ARCHIVE</h2>
   </div>
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(230,241,201);" >
@@ -12,8 +13,8 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home<img src="/assets/img/house-door.svg" alt="house-icon"> </a>
-      </li>     
+        <a class="nav-link active" aria-current="page" href="#"><img src="/assets/img/house-door.svg" alt="house-icon" width="20" height="20" style= "vertical-align:baseline;"></a>
+        </li>     
         
         </li>       
         <li class="nav-item dropdown">

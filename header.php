@@ -1,10 +1,8 @@
 <header>
   <div class="container-fluid" style="background-color:rgb(230,241,201);">
-    <img src="/assets/img/logo.jpg" class="mx-auto d-block" alt="ahdaheaderlogo" width="370" height="200">
-    <span class="logoname"> AMERICAN HERBOLARIA DIGITAL ARCHIVE </span>
-    <h2 class= "logoheader">AMERICAN HERBOLARIA DIGITAL ARCHIVE</h2>
+    <img src="/assets/img/logoheader.jpg" class="mx-auto d-block" alt="ahdaheaderlogo" width="300" height="auto">
+    <h2 class= "logoheader">AMERICAN HERBOLARIA DIGITAL ARCHIVE </h2>
   </div>
-
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(230,241,201);" >
     <div class="container-fluid text-center">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

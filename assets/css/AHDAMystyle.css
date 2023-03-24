@@ -1,6 +1,4 @@
-body {
-    background-color:rgba(230, 241, 201, 1);    
-}
+
 
 .logoname{
     font-family: "Cormorant Garamond", serif;
@@ -19,6 +17,10 @@ body {
 
 
 .navbar {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
     margin: auto; 
     color:rgba(25, 51, 39, 1)
    

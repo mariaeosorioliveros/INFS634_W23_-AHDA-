@@ -1,23 +1,21 @@
 <header>
-  <div class="container-fluid">
+  <div class="container-fluid" style="background-color:rgb(230,241,201);">
     <img src="/assets/img/logo.jpg" class="mx-auto d-block" alt="ahdaheaderlogo" width="370" height="200">
     <span class="logoname"> AMERICAN HERBOLARIA DIGITAL ARCHIVE </span>
     <h2 class= "logoheader">AMERICAN HERBOLARIA DIGITAL ARCHIVE</h2>
   </div>
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(230,241,201);" >
-  <div class="container-fluid text-center">
+    <div class="container-fluid text-center">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
         <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#"><img src="/assets/img/house-door.svg" alt="house-icon" width="20" height="20" style= "vertical-align:baseline;"></a>
-        </li>     
-        
-        </li>       
-        <li class="nav-item dropdown">
+          <a class="nav-link active" aria-current="page" href="#"><img src="/assets/img/house-door.svg" alt="house-icon" width="20" height="20" style= "vertical-align:baseline;"></a>
+         </li>     
+           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             About
           </a>

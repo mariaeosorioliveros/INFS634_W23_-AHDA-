@@ -15,10 +15,36 @@
     </head>    
         <body>
         <?php include ('header.php');?>
+
+        <main>
+             <section>
+                 <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col m-5 p-1" style="background-color:rgba(245, 253, 240, 1);">
+                        <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus provident odit totam laborum, saepe aliquid atque omnis eius inventore voluptatum temporibus corporis minus, ratione doloremque suscipit, placeat magni nemo nobis?
+                        </p>
+                        </div>
+                    <div class="col m-5 p-1">
+                    One of two columns
+                    </div>
+                    </div> 
+                </div> 
+            </section> 
+
+            <section>
+                <div class="container">
+                <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                <div class="col">Column</div>
+                </div>
+                </div>
+                </section> 
+        </main> 
         
         
-
-
         
         <?php include ('footer.php');?>
         <!--This is Bootstrap 5.JS link-->

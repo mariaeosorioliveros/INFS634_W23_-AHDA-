@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Maria Eugenia Osorio Oliveros">
     <title>AHDA</title>
-    <link rel= "icon" type="image/x-icon" href="/assets/img/AH DA_final_logo transparent_bookmark.png"/>
-    <link rel= "stylesheet" type= "text/css" href="/assets/css/AHDAMystyle.css"/>
-    <link rel="stylesheet" href="/assets/css/bootstrap.css"/>
+    <link rel= "icon" type="image/x-icon" href="/ahda_assets/img/AH DA_ transparent_bookmark.jpg"/>
+    <link rel= "stylesheet" type= "text/css" href="/ahda_assets/css/AHDAMystyle.css"/>
+    <link rel="stylesheet" href="/ahda_assets/css/bootstrap.css"/>
     <link rel= "stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap"/> 
     <!--This is Bootstrap 5.CSS link--> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>    
         <body>
-        <?php include ('header.php');?>
+        <?php include ('ahda-header.php');?>
 
         <main>
              <section>
@@ -46,7 +46,7 @@
         
         
         
-        <?php include ('footer.php');?>
+        <?php include ('ahda-footer.php');?>
         <!--This is Bootstrap 5.JS link-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         </body>

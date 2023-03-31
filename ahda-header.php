@@ -1,7 +1,7 @@
 <header>
   <div class="container-fluid p-3" style="background-color:rgb(230,241,201);">
-      <img src="/assets/img/logoheader.jpg" class="mx-auto d-block" alt="ahdaheaderlogo" width="290" height="auto">
-      <h1 id= "logo-header" class="fw-bold">AMERICAN HERBOLARIA DIGITAL ARCHIVE </h1>
+      <img src="/ahda_assets/img/logoheader.jpg" class="mx-auto d-block" alt="ahdaheaderlogo" width="290" height="auto">
+      <h2 id= "logo-header" class="fw-bold">AMERICAN HERBOLARIA DIGITAL ARCHIVE </h2>
 <!--This is AHDA navbar and dropdown menu-->
     <nav class="navbar navbar-expand-lg"style="background-color:rgb(230,241,201);">   
 	  

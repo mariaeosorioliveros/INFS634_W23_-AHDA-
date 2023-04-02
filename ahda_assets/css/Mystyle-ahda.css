@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding:0;  
+}
+
+/* this is ahda main heading */
+#logo-title {
+    font-family: "Cormorant Garamond", serif;
+    color: rgb(25, 51, 39);
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;   
+}
+
+
+
+
+
+/* This is the ahda-footer style */
+footer {
+    width: 100%;
+    height: 70px; /*footer height*/
+    bottom: 0;
+    position:fixed;
+}
+#footer-line {
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    color: rgb(229, 250, 225);
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}

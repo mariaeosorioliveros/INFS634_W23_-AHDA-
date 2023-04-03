@@ -12,7 +12,14 @@
     font-size: 18px;
     text-align: center;   
 }
-
+/* Navbar */
+.dropdown-menu ul{
+    list-style: none;
+    padding: 0;
+}
+.dropdown-menu.show{
+    display: flex;
+}
 
 
 

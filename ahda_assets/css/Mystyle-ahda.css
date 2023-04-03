@@ -1,54 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap');
 * {
     margin: 0;
-    padding:0;  
+    padding:0; 
+    box-sizing: border-box; 
 }
+body{
+    position: relative;
+    padding-bottom: 70px;
+    min-height:fit-content; 
+}
+main{
+    width:100vw;
+    margin: auto;
+}
+
+#welcomeMain {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(2, 4, 3);
+}
+
+
 
 /* this is ahda main heading */
 #logo-title {
     font-family: "Cormorant Garamond", serif;
-    color: rgb(25, 51, 39);
     font-weight: 700;
     font-size: 18px;
-    text-align: center;   
+    text-align: center;
+    color: rgb(25, 51, 39);   
 }
 /* Navbar */
 .navbar-nav {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 17px;
-    color: rgba(11, 18, 9, 1);
-    text-align: center;
+    color: rgb(11, 18, 9)!important;
     padding: 0;
     margin: 0; 
 }   
-
+.nav-link:hover{
+    color:rgb(63, 143, 105)!important;
+}
 .dropdown-menu ul{
     list-style: none;
-    margin:0;
     padding: 0;
-    border-radius: 0;
-    border: none;
-    text-decoration: underline;
-    text-align: center;
+    margin: 0;
+    border-radius: 0 !important;
+    border: none !important;
+    background-color: rgb(25, 51, 39);
 }
-
 .dropdown-item {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 17px; 
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important ;
+    text-decoration: underline !important;
+    background-color: inherit !important;
 }
+/*This is the homepage main section style*/
+
+
 
 
 
 /* This is the ahda-footer style */
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     height: 70px; /*footer height*/
-
+    position: absolute;
+    bottom: 0;
 }
 #footer-line {
     font-family: "Cormorant Garamond", serif;

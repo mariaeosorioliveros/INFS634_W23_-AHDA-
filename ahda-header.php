@@ -1,5 +1,5 @@
 <header>
-<div class="container-fluid p-4" style="background-color:rgb(230,241,201);">
+<div class="container-fluid p-5" style="background-color:rgb(230,241,201);">
   <img src="/ahda_assets/img/logoheader.jpg" class="mx-auto d-block" alt="ahdaheaderlogo" width="290" height="auto">
   <figcaption id= "logo-title" class="fw-bold">AMERICAN HERBOLARIA DIGITAL ARCHIVE </figcaption>              
 <!--This is ahda navbar and dropdown menu-->
@@ -13,20 +13,20 @@
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item dropdown position-static">
+        <li class="nav-item dropdown dropdown-mega position-static">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             About
           </a>
           <div class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
             <ul>
             <li ><a class="dropdown-item" href="#">Overview</a></li>
-            </ul>  
+            </ul>
             <ul>
             <li ><a class="dropdown-item" href="#">Other Digital Projects</a></li>
             </ul>
-          </div>
-          
+          </div>  
         </li>
+
         <li class="nav-item dropdown position-static">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            Archive

@@ -42,34 +42,35 @@ main{
     text-align: center;
     color: rgb(25, 51, 39);   
 }
-/* Navbar */
-.navbar-nav {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    color: rgb(11, 18, 9)!important;
-    padding: 0;
-    margin: 0; 
-}   
-.nav-link:hover{
-    color:rgb(63, 143, 105)!important;
+/*dropdown container style*/
+.dropdown-menu.show {
+    display:flex;
 }
-.dropdown-menu ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    border-radius: 0 !important;
-    border: none !important;
-    background-color: rgb(25, 51, 39);
+.dropdown-menu {
+    height:75px;
+    border:none;
+    border-radius:0%;
+    padding: 0%;
+    background-color: rgb(25, 51, 39)!important;
 }
-.dropdown-item {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 17px; 
-    color: rgb(255, 255, 255) !important ;
-    text-decoration: underline !important;
-    background-color: inherit !important;
+/*dropdown-items style*/
+.dropdown-menu li:first-child a {
+    font-family: "Roboto", sans-serif!important ;
+    font-size: 16px;
+    color: rgb(253, 255, 251);
+    text-decoration: underline;
+
 }
+.dropdown-menu li .dropdown-item {
+    font-family: "Roboto", sans-serif !important;
+    font-size: 16px;
+    color: rgb(253, 255, 251);
+    text-decoration: underline; 
+}
+
+/*navbar style*/
+
+
 
 /* This is the ahda-footer style */
 footer {

@@ -10,8 +10,9 @@
     <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle-ahda.css"/> 
     <link rel="stylesheet" href="/ahda_assets/css/bootstrap.css"/>
     <link rel= "stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap"> 
-    <!--This is Bootstrap 5.CSS link--> 
+    <!--Bootstrap 5.CSS link--> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Boostrap 5-Icons link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head> 
 <body>

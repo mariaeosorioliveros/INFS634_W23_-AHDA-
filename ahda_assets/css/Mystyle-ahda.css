@@ -13,15 +13,26 @@ main{
     width:100vw;
     margin: auto;
 }
-
+/*This is the homepage main sections style*/
 #welcomeMain {
     font-family: "Catamaran", sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(2, 4, 3);
 }
-
-
+.h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(11, 18, 9);
+    text-align: center;
+}
+.text-center{
+    font-family: "Catamaran", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(2, 4, 3);
+}
 
 /* this is ahda main heading */
 #logo-title {
@@ -59,11 +70,6 @@ main{
     text-decoration: underline !important;
     background-color: inherit !important;
 }
-/*This is the homepage main section style*/
-
-
-
-
 
 /* This is the ahda-footer style */
 footer {

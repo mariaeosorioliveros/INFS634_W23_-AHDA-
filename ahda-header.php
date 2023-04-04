@@ -1,5 +1,5 @@
 <header>
-<div class="container-fluid p-5" style="background-color:rgb(230,241,201);">
+<div class="container-fluid pt-5" style="background-color:rgb(230,241,201);">
   <img src="/ahda_assets/img/logoheader.jpg" class="mx-auto d-block" alt="ahdaheaderlogo" width="290" height="auto">
   <figcaption id= "logo-title" class="fw-bold">AMERICAN HERBOLARIA DIGITAL ARCHIVE </figcaption>              
 <!--This is ahda navbar and dropdown menu-->

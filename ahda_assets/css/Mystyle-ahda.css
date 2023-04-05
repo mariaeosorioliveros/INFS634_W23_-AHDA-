@@ -34,7 +34,12 @@ main{
     color: rgb(2, 4, 3);
 }
 
-/* this is ahda main heading */
+/* this is ahda header style */
+.header{
+    top:0%;
+    width: 100%;
+}
+
 #logo-title {
     font-family: "Cormorant Garamond", serif;
     font-weight: 700;
@@ -42,36 +47,54 @@ main{
     text-align: center;
     color: rgb(25, 51, 39);   
 }
+.navbar-nav {
+    height: 38px;
+    margin-bottom: 0%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(11, 18, 9)!important; 
+}   
+.nav-link:hover{
+    color:rgb(63, 143, 105)!important;
+}
+
+.navbar  .dropdown-menu{
+    z-index: 1;
+}
+
 /*dropdown container style*/
 .dropdown-menu.show {
     display:flex;
+    margin-top: 0px !important;
 }
 .dropdown-menu {
+    list-style: none;
     height:75px;
     border:none;
     border-radius:0%;
+    margin: 0%;
     padding: 0%;
     background-color: rgb(25, 51, 39)!important;
 }
 /*dropdown-items style*/
 .dropdown-menu li:first-child a {
     font-family: "Roboto", sans-serif!important ;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(253, 255, 251);
     text-decoration: underline;
 
 }
 .dropdown-menu li .dropdown-item {
     font-family: "Roboto", sans-serif !important;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(253, 255, 251);
-    text-decoration: underline; 
+    text-decoration: underline;
 }
-
-/*navbar style*/
-
-
-
+/*removing the default dropdown-item hover effect*/
+.dropdown-item {
+    background-color: inherit !important;
+}
 /* This is the ahda-footer style */
 footer {
     width: 100%;

@@ -2,24 +2,25 @@
 <html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Maria Eugenia Osorio Oliveros">
-    <title>AHDA:Homepage</title>
-    <link rel= "icon" type="image/x-icon" href="/ahda_assets/img/logobookmarkwb.png"/>
-    <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle-ahda.css"/> 
-    <link rel="stylesheet" href="/ahda_assets/css/bootstrap.css"/>
-    <link rel= "stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap"> 
-    <!--Bootstrap 5.CSS link--> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!--Boostrap 5-Icons link-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="author" content="Maria Eugenia Osorio Oliveros">
+ <title>AHDA:Homepage</title>
+ <link rel= "icon" type="image/x-icon" href="/ahda_assets/img/logobookmarkwb.png"/>
+ <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle-ahda.css"/> 
+ <link rel="stylesheet" href="/ahda_assets/css/bootstrap.css"/>
+ <link rel= "stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap"> 
+ <!--Bootstrap 5.CSS link--> 
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+ <!--Boostrap 5-Icons link-->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head> 
+
 <body>
 <?php include ('ahda-header.php');?>
 <main>
 <div class="container-fluid">
-    <div class="row">
+ <div class="row">
     <div class="col-sm-4 col-lg-6 p-5 text-center" style="background-color:rgb(245, 253, 240);">
         <p id="welcomeMain">Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<b> Ut enim ad minim veniam </b>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <b>Lorem ipsum dolor sit amet,</b>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>            
     </div>
@@ -55,8 +56,7 @@
         </div>
     </div>
 </div> 
-</main> 
-              
+</main>              
 <?php include ('ahda-footer.php');?>
 <!--This is Bootstrap 5.JS link-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

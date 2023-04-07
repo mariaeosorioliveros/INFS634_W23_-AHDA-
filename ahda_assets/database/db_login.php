@@ -1,8 +1,8 @@
 <?php
 $server = 'localhost';
-$username = 'myxtaomy_INFS634';
-$password = 'Week10_2023';
-$database = 'myxtaomy_INFS634_W23';
+$username = 'root';
+$password = 'root';
+$database = 'INFS634-AHDA-Project';
 
 try{
 	$conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);

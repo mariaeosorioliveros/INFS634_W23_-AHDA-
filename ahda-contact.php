@@ -1,12 +1,3 @@
-<?php
-date_default_timezone_set('America/Montreal');
-$date = new DateTime();
-$TimeDate = $date->format('Y-m-d H:s');
-
-require 'database/db_login.php'; //load credentials
-
-?>
-
 
 <!DOCTYPE HTML>
 <html>
@@ -16,8 +7,9 @@ require 'database/db_login.php'; //load credentials
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="author" content="Maria Eugenia Osorio Oliveros">
  <title>AHDA:Contact</title>
- <link rel= "icon" type="image/x-icon" href="/ahda_assets/img/logobookmarkwb.png"/>
- <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle-ahdacontact.css"> 
+ <link rel= "icon" type="image/x-icon" href="/ahda_assets/img/logobookmarkwb.png">
+ <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle2-ahdacontact.css">
+ <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle1-ahda.css">  
  <link rel="stylesheet" href="/ahda_assets/css/bootstrap.css"/>
  <link rel= "stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap"> 
  <!--Bootstrap 5.CSS link--> 
@@ -40,7 +32,7 @@ require 'database/db_login.php'; //load credentials
  </div> 
  <div class="container py-5">
  <div class="row">
-    <div class="col-lg-6 mx-auto">
+  <div class="col-lg-6 mx-auto">
 <!--Bootstrap 5 form--> 
 <form action="#" method="POST" id="form"><!--Adding action and POST method type for this form-->       
  <div class="mb-3">
@@ -53,12 +45,12 @@ require 'database/db_login.php'; //load credentials
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message..." rows="6" name="message" required></textarea><!--Define input name variable for message required-->
+  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message..." rows="7" name="message" required></textarea><!--Define input name variable for message required-->
 </div>
-<button class="btn btn-primary" type="submit">Submit form</button>
-<p>Thank you!</p>
+  <button class="btn btn-primary" type="submit">Send <img src="/ahda_assets/img/send-message-svgrepo-com.svg" alt="send-icon" width="20" height="auto" style="fill:rgb(11,18,9); text-align:end"></button>
 </div>
 </div>
+
 </form>   
 </div>
 </main> 

@@ -6,8 +6,8 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="author" content="Maria Eugenia Osorio Oliveros">
  <title>AHDA:Homepage</title>
- <link rel= "icon" type="image/x-icon" href="/ahda_assets/img/logobookmarkwb.png"/>
- <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle-ahda.css"/> 
+ <link rel= "icon" type="image/x-icon" href="/ahda_assets/img/logobookmarkwb.png">
+ <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle1-ahda.css"> 
  <link rel="stylesheet" href="/ahda_assets/css/bootstrap.css"/>
  <link rel= "stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap"> 
  <!--Bootstrap 5.CSS link--> 

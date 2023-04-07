@@ -35,10 +35,6 @@ main{
 }
 
 /* this is ahda header style */
-.header{
-    top:0%;
-    width: 100%;
-}
 
 #logo-title {
     font-family: "Cormorant Garamond", serif;
@@ -57,10 +53,6 @@ main{
 }   
 .nav-link:hover{
     color:rgb(63, 143, 105)!important;
-}
-
-.navbar  .dropdown-menu{
-    z-index: 1;
 }
 
 /*dropdown container style*/
@@ -95,6 +87,9 @@ main{
 .dropdown-item {
     background-color: inherit !important;
 }
+
+
+
 /* This is the ahda-footer style */
 footer {
     width: 100%;

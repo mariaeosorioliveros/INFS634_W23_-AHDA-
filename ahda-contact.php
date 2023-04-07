@@ -37,7 +37,7 @@
 <form action="#" method="POST" id="form"><!--Adding action and POST method type for this form-->       
  <div class="mb-3">
   <label for="formGroupExampleInput" class="form-label">Name</label>
-  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your first and last name" name="flname" required> <!--Define input variable name for name required-->
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your first and last name" name="name" required> <!--Define input variable name for name required-->
  </div>
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>

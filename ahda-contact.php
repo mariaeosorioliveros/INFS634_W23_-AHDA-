@@ -32,7 +32,7 @@
  </div> 
  <div class="container py-5">
  <div class="row">
-  <div class="col-lg-6 mx-auto">
+  <div class="col-lg-6 py-4 mx-auto">
 <!--Bootstrap 5 form--> 
 <form action="#" method="POST" id="form"><!--Adding action and POST method type for this form-->       
  <div class="mb-3">

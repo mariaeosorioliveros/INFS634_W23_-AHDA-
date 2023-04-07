@@ -62,7 +62,7 @@ main{
 }
 .dropdown-menu {
     list-style: none;
-    height:75px;
+    height: 80px !important;
     border:none;
     border-radius:0%;
     margin: 0%;

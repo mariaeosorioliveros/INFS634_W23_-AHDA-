@@ -2,7 +2,7 @@
 
 #contact{
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     color: rgba(255, 255, 255, 1);
     text-align: center;
 }
@@ -19,10 +19,11 @@ p{
 }
     
 .btn{
+    font-family: "Catamaran", sans-serif !important ;
+    font-size: 19px;
+    color: rgb(11,18,9) !important;
     background-color: rgb(245,253,240) !important;
     border-color: rgb(92,126,102) !important;
     border-radius: 1px;
-    text-align: right !important;
-    font-size: 19px;
-    color: rgb(11,18,9) !important;
+    text-align: center !important;
 }

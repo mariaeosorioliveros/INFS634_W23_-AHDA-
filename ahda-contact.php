@@ -25,8 +25,8 @@
 <div class="container-fluid" style="background-color:rgba(92,126,102,0.75);">
  <div class= "row py-3">
     <div class="col-12">
-        <h2 id="contact" >Contact Us</h2>
-        <p> WE WOULD LIKE TO HEAR YOUR QUESTIONS, COMMENTS, SUGGESTIONS, AND FEEDBACK!</p>
+        <h2 id="contact">Contact Us</h2>
+        <p id="contactline"> WE WOULD LIKE TO HEAR YOUR QUESTIONS, COMMENTS, SUGGESTIONS, AND FEEDBACK!</p>
     </div>
  </div>
  </div> 
@@ -35,19 +35,22 @@
   <div class="col-lg-6 py-4 mx-auto">
 <!--Bootstrap 5 form--> 
 <form action="#" method="POST" id="form"><!--Adding action and POST method type for this form-->       
- <div class="mb-3">
-  <label for="formGroupExampleInput" class="form-label">Name</label>
+ <div class="mb-3 pt-1">
+  <label for="formGroupExampleInput" class="form-label" style="font-family:Roboto, sans-serif; font-weight: 700px; font-size:16px">Name</label>
   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your first and last name" name="name" required> <!--Define input variable name for name required-->
  </div>
-<div class="mb-3">
+<div class="mb-3 pt-1">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email: name@example.com" name="email" required> <!--Define input variable name for email required-->
 </div>
-<div class="mb-3">
+<div class="mb-3 pt-1">
   <label for="exampleFormControlTextarea1" class="form-label">Message</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message..." rows="7" name="message" required></textarea><!--Define input name variable for message required-->
 </div>
+<div class="mb-3 pt-2 pb-4 text-end">
+  <h2 style="font-family: Catamaran,sans-serif;font-size: 19px; font: weight 300px; text-align:center">Thank you!</h2>
   <button class="btn btn-primary" type="submit">Send <img src="/ahda_assets/img/send-message-svgrepo-com.svg" alt="send-icon" width="20" height="auto" style="fill:rgb(11,18,9); text-align:end"></button>
+</div>
 </div>
 </div>
 

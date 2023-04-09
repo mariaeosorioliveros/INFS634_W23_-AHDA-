@@ -10,6 +10,7 @@ The aim of AHDA website project is to develop a website which works both as a re
 * HTML 5
 * CSS
 * Bootstrap 5
+* MySQL
 ### Installing
 
 ### Executing Program

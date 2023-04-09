@@ -12,8 +12,7 @@
     <div class="collapse navbar-collapse justify-content-center gy-0" id="navbarNavDarkDropdown">
       <ul class="navbar-nav">
       <li class="nav-item"> 
-        <a class="nav-link active" aria-current="page" href="#">
-        <i class="bi bi-house-door" style="font-size: 19px; fill: rgb(11, 18, 9); vertical-align:baseline"></i></a>
+        <a class="nav-link active" href="ahda-index.php"><i class="bi bi-house-door" style="font-size: 19px; fill: rgb(11, 18, 9); vertical-align:baseline"></i></a>
         </li> 
         <li class="nav-item dropdown dropdown-mega position-static">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -58,7 +57,7 @@
           </div>  
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="ahda-contact.php">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"><img src="/ahda_assets/img/leaf-svgrepo-com.svg" alt="leaf-icon" width="25" height="auto" style= "vertical-align:top">Español</a>

@@ -10,7 +10,7 @@ if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message']
 
  
 //Contact==table in INFS634-AHDA-Project database // extracting data from the database
-$sql= "INSERT INTO `Contact` ( `ID`, ` name`, `email`, `message`) VALUES (NULL, '".$_POST['name']."', '".$_POST['email']."', '".$_POST['message']."')";
+$sql= "INSERT INTO `Contact` (`name`, `email`, `message`) VALUES ('".$_POST['name']."', '".$_POST['email']."', '".$_POST['message']."')";
 $stmt = $conn->prepare($sql);
     //Creating New Event
     if( $stmt->execute() ){  //executing query to update the database 

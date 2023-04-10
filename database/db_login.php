@@ -1,5 +1,5 @@
 <?php
-$server = 'localhost';
+$server = 'localhost:8889';
 $username = 'root';
 $password = 'root';
 $database = 'INFS634-AHDA-Project';

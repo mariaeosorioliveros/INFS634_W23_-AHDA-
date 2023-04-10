@@ -8,14 +8,18 @@ require 'database/db_login.php'; //load credentials
 
 if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])){ //check if name, email, and message is submitted using POST method
 
-//Contact==table in INFS634-AHDA-Project database
+ 
+//Contact==table in INFS634-AHDA-Project database // extracting data from the database
 $sql= "INSERT INTO `Contact` ( `ID`, ` name`, `email`, `message`) VALUES (NULL, '".$_POST['name']."', '".$_POST['email']."', '".$_POST['message']."')";
 $stmt = $conn->prepare($sql);
     //Creating New Event
     if( $stmt->execute() ){  //executing query to update the database 
 
-        $message2="Contact form submitted"; //Message to show contact form was submitted
-    } 
+        $message_form="Contact form submitted"; //Message to show contact form was submitted
+    } else {
+            $message_form="Error in submitting contact form.";
+    }
+
   } 
 ?>
 
@@ -70,7 +74,7 @@ $stmt = $conn->prepare($sql);
 <div class="mb-3 pt-2 pb-4 text-end">
   <h2 style="font-family: Catamaran,sans-serif;font-size: 19px; font: weight 300px; text-align:center">Thank you!</h2>
   <button class="btn btn-primary" type="submit">Send <img src="/ahda_assets/img/send-message-svgrepo-com.svg" alt="send-icon" width="20" height="auto" style="fill:rgb(11,18,9); text-align:end"></button>
-  <?php echo "<p>".$message2."</p>";?>
+  <?php echo "<p>".$message_form."</p>";?>
 </div>
 </div>
 </div>

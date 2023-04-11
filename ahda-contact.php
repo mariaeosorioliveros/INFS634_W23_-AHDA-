@@ -15,12 +15,12 @@ $stmt = $conn->prepare($sql);
     //Creating New Event
     if( $stmt->execute() ){  //executing query to update the database 
 
-        $message_form="Contact form submitted"; //Message to show contact form was submitted
+        $confirm="Contact form submitted"; //Message to show contact form was submitted
     } else {
-            $message_form="Error in submitting contact form.";
+            $confirm="Error in submitting contact form.";
     }
-
   } 
+  $conn=null;  
 ?>
 
 <!DOCTYPE HTML>
@@ -74,7 +74,7 @@ $stmt = $conn->prepare($sql);
 <div class="mb-3 pt-2 pb-4 text-end">
   <h2 style="font-family: Catamaran,sans-serif;font-size: 19px; font: weight 300px; text-align:center">Thank you!</h2>
   <button class="btn btn-primary" type="submit">Send <img src="/ahda_assets/img/send-message-svgrepo-com.svg" alt="send-icon" width="20" height="auto" style="fill:rgb(11,18,9); text-align:end"></button>
-  <?php echo "<p>".$message_form."</p>";?>
+  <?php echo "<p>".$confirm."</p>";?>
 </div>
 </div>
 </div>

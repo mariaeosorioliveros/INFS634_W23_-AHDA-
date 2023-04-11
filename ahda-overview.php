@@ -18,24 +18,23 @@
 <body style="background-color: rgb(229, 250, 225);">
 <?php include ('ahda-header.php');?>
 <main>
-    <div class="container-fluid p-3">
+    <div class="container-fluid px-4 py-0 ">
         <div class="row p-5">
-            <div class="col-12 p-5">
+        <div class="col-12 p-5 text-center">
             <?php require 'database/db_login.php'; //load credentials
             //write query from database About table
             $query= "SELECT `Title`,`Paragraph1`,`Paragraph2` FROM `About` WHERE id=2;";  
             //executing query to get results 
             $query_exc = $conn->query($query);
             while($results = $query_exc->fetch(PDO:: FETCH_ASSOC)) {
-         echo "<h2>" . $results["Title"] . "</h2>";
-         echo "<p>" . $results["Paragraph1"] . "</p>";
-         echo "<p>" . $results["Paragraph2"] . "</p>";
+         echo "<h2 style='font-family:Catamaran, sans-serif; font-size: 22px; font-weight: bold; color:rgb(25,51,39)'>" . $results["Title"] . "</h2>";
+         echo "<p style='font-size:17px'>" . $results["Paragraph1"] . "</p>";
+         echo "<p style='font-size:17px'>" . $results["Paragraph2"] . "</p>";
         }
-        ?> 
-         </div>
+        ?>
+        </div> 
         </div>
     </div>
-
 </main>
 <?php include ('ahda-footer.php');?>
 <!--This is Bootstrap 5.JS link-->

@@ -8,7 +8,6 @@ require 'database/db_login.php'; //load credentials
 
 if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])){ //check if name, email, and message is submitted using POST method
 
- 
 //Contact==table in INFS634-AHDA-Project database // extracting data from the database
 $sql= "INSERT INTO `Contact` (`name`, `email`, `message`) VALUES ('".$_POST['name']."', '".$_POST['email']."', '".$_POST['message']."')";
 $stmt = $conn->prepare($sql);
@@ -19,7 +18,7 @@ $stmt = $conn->prepare($sql);
     } else {
             $confirm="Error in submitting contact form.";
     }
-  } 
+  }
   $conn=null;  
 ?>
 

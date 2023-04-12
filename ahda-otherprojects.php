@@ -22,48 +22,56 @@
     <div class="container-fluid py-4 text-center" style="background-color:rgba(230, 241, 201, 0.614);">
         <div class="row">
             <div class="col-12">
-                <h2 class="a">Other Digital Projects related to AHDA</h2>
+                <h2 class="a">These are other digital projects that AHDA loves and are worth to explore!</h2>
             </div>
         </div>
     </div>   
-      <div class="container py-4">
-        <div class="row">
-            <div class= col-3>
-            <div class="card py-4 px-2 text-center" style="width: 300px; height:400px; background-color:rgb(229,250,225);">
-            <img src="/ahda_assets/img/otherdigitalprojects-box1.jpg" class="card-img-top" alt="other-projects"  width= "300" height="120">
-            <div class="card-body">
-            <p class="card-text">Digital Humanities Initiative<br/> New World Nature:Hamilton College.<br/> Stanford University </p>
-            <a class="link" href="https://nwn.dhinitiative.org/" target="_blank"> Explore New World Nature digital initiative</a>
+    <div class="container px-0 py-4">
+      <div class="row py-3 g-0">
+         <div class= col-3>
+          <div class="card text-center" style="width: 290px; height:400px; background-color:rgb(229,250,225);">
+            <img src="/ahda_assets/img/nwn_dhinitiative-box1.jpg" class="card-img-top" alt="other-projectsNewWorld"  width= "300" height="140">
+             <div class="card-body">
+              <p class="card-text1">Digital Humanities Initiative<br/> New World Nature</p>
+              <p class="card-text">Hamilton College.<br/> Stanford University </p>
+              <a class="link" href="https://nwn.dhinitiative.org/" target="_blank"> Website: New World Nature Digital Initiative</a>
             </div>
-            </div>
-            </div>  
-        <div class= col-3>
-        <div class="card py-4 px-2 text-center" style="width: 300px; height:400px; background-color:rgb(230,241,201);">
-            <img src="/ahda_assets/img/otherdigitalprojects-box2.jpg" class="card-img-top" alt="other-projects" width= "300" height="120">
+         </div>
+       </div>  
+       <div class= col-3>
+        <div class="card text-center" style="width: 290px; height:400px; background-color:rgb(230,241,201);">
+            <img src="/ahda_assets/img/lab_plant-humanities-box2.jpg" class="card-img-top" alt="other-projectsPlantH" width= "300" height="140">
             <div class="card-body">
-            <p class="card-text">Plant Humanities Lab Dumbarton Oaks.<br/> Harvard University</p>
+             <p class="card-text1">Plant Humanities Lab</p>
+             <p class="card-text">Dumbarton Oaks.<br/>Harvard University</p>
+             <a class="link" href="https://lab.plant-humanities.org/" target="_blank"> Website: Plant Humanities Lab</a>
             </div>
         </div>    
-        </div>
-        
-        <div class= col-3>
-        <div class="card py-4 px-2" style="width: 300px; height:400px; background-color: rgb(255,255,255);">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">Calamarí Catalogue Historical documents from Cartagena province (only in Spanish) Fundación Cartago. Angelina Araújo Velez.</p>
-            </div>
-            </div>       
-        </div>
-        <div class= col-3> 
-        <div class="card py-4 px-2 text-center" style="width: 300px; height:400px; background-color:rgba(92,126,102,0.9);">
-        <img src="/ahda_assets/img/otherdigitalprojects-box4.jpg" class="card-img-top" alt="other-projects" width= "300" height="150>
+      </div>
+    <div class= col-3>
+        <div class="card text-center" style="width: 290px; height:400px; background-color: rgb(255,255,255);">
+             <img src="/ahda_assets/img/catalogocalamari-box3.jpg" class="card-img-top" alt="other-projectsCalamari" width= "300" height="140">
         <div class="card-body">
-        <p class="card-text">Ecda.Early Caribbean Digital Archive <br/> Northeastern University.</p>
+            <p class="card-text1">Calamarí Catalogue Historical documents from Cartagena's province (only in Spanish)</p>
+            <p class="card-text">Fundación Cartago. Angelina Araújo Velez.</p>
+            <a class="link" href="https://www.catalogocalamari.com/" target="_blank"> Website: Catalogo Calamarí</a>
+          </div>
         </div>
-        </div>      
-        </div>
+    </div>       
+       <div class= col-3>
+       <div class="card text-center" style="width: 290px; height:400px; background-color: rgb(92, 126, 102)">
+       <img src="/ahda_assets/img/otherdigitalprojects-box4.jpg" class="card-img-top" alt="other-projectsEcda" width="300" height="140">
+       <div class="card-body">
+          <p class="card-text1">Ecda:Early Caribbean Digital Archive</p>
+          <p class="card-text"> Northeastern University</p>
+          <a class="link" href="https://ecda.northeastern.edu/" target="_blank"> Website: Ecda</a>
+       </div>
+      </div>
+     </div>
+        
     </div>
-    </div>  
+    </div>
+  </div>  
 </main>
 <?php include ('ahda-footer.php');?>
 <!--This is Bootstrap 5.JS link-->

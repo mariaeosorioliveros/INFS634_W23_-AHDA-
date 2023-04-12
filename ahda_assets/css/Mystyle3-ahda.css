@@ -2,18 +2,37 @@
 
 .a {
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     color: rgb(11,18,9);
     text-align: center;
 }
+.col-3{
+  width: auto;
+  margin: 0%;
+  padding-left: 0%;
+
+}
+.card {
+  border: none;
+  border-radius: none !important;
+}
+
+.card-text1 {
+  font-family: "Roboto", sans-serif;
+  font-size:17px;
+  font-weight: 700;
+  color: rgb(11,18,9);
+  text-align: center;
+}
 
 .card-text {
   font-family: "Roboto", sans-serif;
-  font-size:17px;
-  font-weight: 400;
+  font-size:16px;
+  font-weight: 300;
   color: rgb(11,18,9);
   text-align: center;
+
 }
 
 .link {

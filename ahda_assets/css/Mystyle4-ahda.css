@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap');
+
+main{
+    background-color: rgb (255,255,255);
+}
+
+.heading{
+    font-family: "Roboto", sans-serif ;
+    font-size: 23px;
+}

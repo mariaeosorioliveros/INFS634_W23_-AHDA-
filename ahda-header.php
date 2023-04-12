@@ -31,7 +31,7 @@
           </a>
           <div class="dropdown-menu w-100" aria-labelledby="navbarDarkDropdownMenuLink">        
             <ul class="list-inline p-3" style="text-align: center;">
-            <li class= "list-inline-item"><a class="dropdown-item" href="#">About Herbolaria Digital Archive</a></li>
+            <li class= "list-inline-item"><a class="dropdown-item" href="ahda-aboutarchive.php">About Herbolaria Digital Archive</a></li>
             <li class="list-inline-item"><a class="dropdown-item" href="#">Browser Herbolaria Digital Archive</a></li>
             </ul>
           </div>  

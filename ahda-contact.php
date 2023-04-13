@@ -14,6 +14,7 @@
     if( $stmt->execute() ){  //executing query to update the database 
 
         $confirm="Contact form submitted."; //Message to show contact form was submitted
+
     } else {
             $confirm="Error in submitting contact form."; //Message to show error in submitting form
     }
@@ -44,7 +45,7 @@
   <?php include ('ahda-header.php');?>
 <main style="background-color: rgb(245,253,240);">
   <div class="container-fluid" style="background-color:rgba(92,126,102,0.75);">
-   <div class= "row-1 py-3">
+   <div class= "row pt-3 pb-0">
     <div class="col-12">
        <h2 id="contact">Contact Us</h2>
        <p id="contactline"> WE WOULD LIKE TO HEAR YOUR QUESTIONS, COMMENTS, SUGGESTIONS, AND FEEDBACK!</p>

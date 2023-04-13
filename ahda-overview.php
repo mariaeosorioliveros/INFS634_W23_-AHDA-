@@ -18,7 +18,7 @@
 <body style="background-color: rgb(229, 250, 225);">
 <?php include ('ahda-header.php');?>
 <main>
-    <div class="container px-4 py-0 ">
+    <div class="container pt-4 px-4 py-0 ">
         <div class="row p-3">
         <div class="col-12 py-5 text-center">
             <?php require 'database/db_login.php'; //load credentials

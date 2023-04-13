@@ -19,14 +19,14 @@
 <body>
 <?php include ('ahda-header.php');?>
 <main>
-<div class="container-fluid">
- <div class="row">
+<div class="container-fluid pt-5" style= "background-color: rgb(230,241,201);">
+ <div class="row pt-4">
     <div class="col-sm-4 col-lg-6 p-5 text-center" style="background-color:rgb(245, 253, 240);">
         <p id="welcomeMain">Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<b> Ut enim ad minim veniam </b>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <b>Lorem ipsum dolor sit amet,</b>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>            
     </div>
-    <div class="col-sm-8 col-lg-6 pt-5 pb-4 position-relative" style="background-color: rgb(255, 255, 255);">
+    <div class="col-sm-8 col-lg-6 pt-5 pb-5 position-relative" style="background-color: rgb(255, 255, 255);">
         <img src="/ahda_assets/img/MP-8-homepage.jpg" class="float-start" alt="archive-image" width="350" height="auto">
-        <p class="h3">Archive</p>
+        <p class="h3">Archive</p><br/>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <button type="button" class="btn position-absolute bottom-0 end-0" style="background-color: rgba(25, 51, 39, 0.5); border-radius:0; width: 60px; height: 50px;" >  
         <i class="bi bi-caret-right-fill" style="font-size: 28px; fill:rgb(25, 51, 39); text-align: center" ></i>
@@ -41,14 +41,14 @@
         <img src="/ahda_assets/img/imageAHDAhomepagebox2.jpg" class="mw-100"  alt="image-collage2">
     </div>
     <div class="col-lg-3 pt-5 position-relative" style="background-color: rgb(229, 250, 225);">
-        <p class="h3">Herbolaria Collections</p>
+        <p class="h3">Herbolaria Collections</p><br/>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <button type="button" class="btn position-absolute bottom-0 end-0" style="background-color: rgba(25, 51, 39, 0.5); border-radius:0; width: 60px; height: 50px;">  
         <i class="bi bi-caret-right-fill" style="font-size: 28px; fill:rgb(25, 51, 39); text-align:center" ></i>
         </button>
         </div>
         <div class="col-lg-3 pt-5 position-relative" style="background-color: rgb(230, 241, 201);">
-        <p class="h3">Projects</p>
+        <p class="h3">Projects</p><br/>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <button type="button" class="btn position-absolute bottom-0 end-0" style="background-color: rgba(25, 51, 39, 0.5); border-radius:0; width: 60px; height: 50px;" >  
         <i class="bi bi-caret-right-fill" style="font-size: 28px; fill:rgb(25, 51, 39); text-align:center" ></i>

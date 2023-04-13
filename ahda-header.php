@@ -3,7 +3,7 @@
   <img src="/ahda_assets/img/logoheader.jpg" class="mx-auto d-block" alt="ahdaheaderlogo" width="290" height="auto">
   <figcaption id= "logo-title" class="fw-bold">AMERICAN HERBOLARIA DIGITAL ARCHIVE </figcaption>            
 </div>
-<!--This is ahda navbar and dropdown menu--> 
+<!--This is navbar and dropdown menu--> 
 <nav class="navbar navbar-expand-lg pt-0 pb-1" style="background-color:rgb(230,241,201);">
   <div class="container-fluid gy-0">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">

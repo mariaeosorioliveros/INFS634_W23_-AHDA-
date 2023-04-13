@@ -4,7 +4,8 @@
     padding:0; 
     box-sizing: border-box; 
 }
-body{
+b {
+   
     position: relative;
     padding-bottom: 70px;
     min-height:fit-content; 
@@ -23,7 +24,7 @@ main{
 .h3{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(11, 18, 9);
     text-align: center;
 }
@@ -34,7 +35,7 @@ main{
     color: rgb(2, 4, 3);
 }
 
-/* this is ahda header style */
+/* this is header style */
 
 #logo-title {
     font-family: "Cormorant Garamond", serif;
@@ -56,6 +57,7 @@ main{
 }
 
 /*dropdown container style*/
+
 .dropdown-menu.show {
     display:flex;
     margin-top: 0px !important;

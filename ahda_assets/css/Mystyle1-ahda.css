@@ -5,7 +5,6 @@
     box-sizing: border-box; 
 }
 b {
-   
     position: relative;
     padding-bottom: 70px;
     min-height:fit-content; 
@@ -89,8 +88,6 @@ main{
 .dropdown-item {
     background-color: inherit !important;
 }
-
-
 
 /* This is the ahda-footer style */
 footer {

@@ -7,7 +7,7 @@
     color: rgb(11,18,9);
     text-align: center;
 }
-.col-3{
+.col-3 {
   width: auto;
   margin: 0%;
   padding-left: 0%;
@@ -32,11 +32,16 @@
   font-weight: 300;
   color: rgb(11,18,9);
   text-align: center;
+}
 
+p {
+  font-family: "Catamaran", sans-serif;
+  font-size: 16px;
 }
 
 .link {
     font-family: "Roboto", sans-serif;
-    color: rgb(11,18,9);
-   
+    font-size: 16px;
+    font-weight: 300px;
+    color: rgb(11,18,9);  
 }

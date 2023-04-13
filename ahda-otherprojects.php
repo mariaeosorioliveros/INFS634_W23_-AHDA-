@@ -34,7 +34,8 @@
              <div class="card-body">
               <p class="card-text1">Digital Humanities Initiative<br/> New World Nature</p>
               <p class="card-text">Hamilton College.<br/> Stanford University </p>
-              <a class="link" href="https://nwn.dhinitiative.org/" target="_blank"> Website: New World Nature Digital Initiative</a>
+              <p>Website:</p>
+                <a class="link" href="https://nwn.dhinitiative.org/" target="_blank">New World Nature Digital Initiative</a>
             </div>
          </div>
        </div>  
@@ -44,17 +45,19 @@
             <div class="card-body">
              <p class="card-text1">Plant Humanities Lab</p>
              <p class="card-text">Dumbarton Oaks.<br/>Harvard University</p>
-             <a class="link" href="https://lab.plant-humanities.org/" target="_blank"> Website: Plant Humanities Lab</a>
+             <p>Website:</p>
+                <a class="link" href="https://lab.plant-humanities.org/" target="_blank">Plant Humanities Lab</a>
             </div>
         </div>    
       </div>
-    <div class= col-3>
-        <div class="card text-center" style="width: 290px; height:400px; background-color: rgb(255,255,255);">
+    <div class= col-3 >
+        <div class="card text-center pb-4" style="width: 290px; height:400px; background-color: rgb(255,255,255);">
              <img src="/ahda_assets/img/catalogocalamari-box3.jpg" class="card-img-top" alt="other-projectsCalamari" width= "300" height="140">
         <div class="card-body">
             <p class="card-text1">Calamarí Catalogue Historical documents from Cartagena's province (only in Spanish)</p>
             <p class="card-text">Fundación Cartago. Angelina Araújo Velez.</p>
-            <a class="link" href="https://www.catalogocalamari.com/" target="_blank"> Website: Catalogo Calamarí</a>
+            <p>Website:</p> 
+             <a class="link" href="https://www.catalogocalamari.com/" target="_blank">Catalogo Calamarí</a>
           </div>
         </div>
     </div>       
@@ -64,7 +67,8 @@
        <div class="card-body">
           <p class="card-text1">Ecda:Early Caribbean Digital Archive</p>
           <p class="card-text"> Northeastern University</p>
-          <a class="link" href="https://ecda.northeastern.edu/" target="_blank"> Website: Ecda</a>
+          <p>Website:</p>
+            <a class="link" href="https://ecda.northeastern.edu/" target="_blank"> Ecda</a>
        </div>
       </div>
      </div>

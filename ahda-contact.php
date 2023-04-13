@@ -58,7 +58,7 @@
     <form action="#" method="POST" id="form"><!--Adding action and POST method type for this form-->       
 <!--Name input-->    
     <div class="mb-3 pt-1">
-      <label for="formGroupExampleInput" class="form-label" style="font-family:Roboto, sans-serif; font-weight: 700px; font-size:16px">Name</label>
+      <label for="formGroupExampleInput" class="form-label">Name</label>
       <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your first and last name" name="name" required> <!--Define input variable name for name required-->
     </div>
  <!--Email input-->   
@@ -69,10 +69,10 @@
  <!--Message input-->   
     <div class="mb-3 pt-1">
       <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message..." rows="7" name="message" required></textarea><!--Define input name variable for message required-->
+      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message..." rows="8" name="message" required></textarea><!--Define input name variable for message required-->
     </div>
  <!--Submit button-->  
-    <div class="mb-3 pt-2 pb-4 text-end">
+    <div class="mb-3 py-2 text-end">
        <h2 style="font-family: Catamaran,sans-serif;font-size: 19px; font: weight 300px; text-align:center">Thank you!</h2>
        <button class="btn btn-primary" type="submit">Send <img src="/ahda_assets/img/send-message-svgrepo-com.svg" alt="send-icon" width="20" height="auto" style="fill:rgb(11,18,9); text-align:end"></button>
  <!--Submission output-->  

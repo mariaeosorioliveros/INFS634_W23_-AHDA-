@@ -7,6 +7,7 @@
  <meta name="author" content="Maria Eugenia Osorio Oliveros">
  <title>AHDA:Archive</title>
  <link rel= "icon" type="image/x-icon" href="/ahda_assets/img/logobookmarkwb.png">
+ <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle5-ahdArchive.css">
  <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle1-ahda.css"> 
  <link rel="stylesheet" href="/ahda_assets/css/bootstrap.css"/>
  <link rel= "stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap"> 
@@ -16,10 +17,127 @@
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head>
 
-<body>
-  <?php include ('ahda-header.php');?>
-    <main>
+  <body>
+<?php include ('ahda-header.php');?>
+  <main style="background-color:rgb(245, 253, 240);">
+<!--This is Bootstrap filter accordion form-->
+     <div class="container pt-5" style="background-color:rgb(245, 253, 240);">
+          <div class="row">
+            <div class="col mx-auto py-5">
+            <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
 
+</div>
+</div>
+<!--End of filter accordion form-->
+
+<!--First column archive items-->
+<div class="col ps-5 py-5">
+  <div class="card pt-3" style="width: 200px; height:240px;">
+          <img src="/ahda_assets/img/MP-8-homepage.jpg" class="card-img-top" alt="archive-item.1">
+            <div class="card-body py-5 text-center">
+              <a href="#" class="card-link">Card link</a>
+            </div>
+    </div>
+    <br/>  
+    <div class="card py-3" style="width: 200px; height:240px;">
+           <i class="bi bi-file-earmark-text" style="font-size: 90px; color:rgb(63,143,105); text-align: center"></i>
+            <div class="card-body py-3 text-center">
+              <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
+            </div>
+    </div>
+</div>
+<!--Second column archive items-->
+<div class="col py-5">
+<div class="card" style="width: 200px; height:240px;">
+              <img src="..." class="card-img-top" alt="...">
+            <div class="card-body py-5 text-center">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+    </div>
+<br/>
+      <div class="card py-3" style="width: 200px; height:240px;">
+           <i class="bi bi-file-earmark-text" style="font-size: 90px; color:rgb(63,143,105); text-align: center"></i>
+            <div class="card-body py-3 text-center">
+              <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
+            </div>
+      </div>
+</div>
+<!--Third column archive items-->
+<div class="col py-5">
+<div class="card" style="width: 200px; height:240px;">
+              <img src="..." class="card-img-top" alt="...">
+            <div class="card-body py-5 text-center">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+    </div>
+    <br/>
+    <div class="card py-3" style="width: 200px; height:240px;">
+           <i class="bi bi-bookmark" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
+            <div class="card-body py-5 text-center">
+              <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
+            </div>
+    </div>
+</div>
+<!--Fourth column archive items-->
+<div class="col pe-5 py-5">
+<div class="card py-3" style="width: 200px; height:240px;">
+            <i class="bi bi-bookmark" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
+            <div class="card-body py-5 text-center">
+              <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
+            </div>
+    </div>
+    <br/>
+    <div class="card py-3" style="width: 200px; height:240px;">
+           <i class="bi bi-file-earmark-text" style="font-size: 90px; color:rgb(63,143,105); text-align: center"></i>
+            <div class="card-body py-3 text-center">
+              <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
+            </div>
+      </div>
+</div>
+<!--End of archival items column-->     
+       </div>
+      </div>
     </main>
-</body>
+    <?php include ('ahda-footer.php');?>
+<!--This is Bootstrap 5.JS link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
+  </body>
 </html>

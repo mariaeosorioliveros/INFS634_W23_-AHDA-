@@ -14,8 +14,8 @@
 
 }
 .card {
-  border: none;
-  border-radius: none !important;
+  border: 0%;
+  border-radius: 0%!important;
 }
 
 .card-text1 {

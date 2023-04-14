@@ -55,7 +55,7 @@
   <div class="container py-5">
     <div class="row">
      <div class="col-lg-6 py-4 mx-auto">
-<!--Bootstrap 5 contact form--> 
+<!--Start of Bootstrap 5 contact form--> 
     <form action="#" method="POST" id="form"><!--Adding action and POST method type for this form-->       
 <!--Name input-->    
     <div class="mb-3 pt-1">

@@ -1,8 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap');
 
 
+.accordion-item {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(0,0,0) !important;
+    width: 260px;
+    border-radius: 0% !important;
+    border-width: 2px !important;
+    border-color: rgb(92, 126, 102) !important;
+    box-shadow: none !important;   
+}
+
+.accordion-button {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(0,0,0) !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:hover {
+   background-color: rgba(229, 250, 225, 0.5)!important;
+}
+
+ul {
+    list-style: none;
+}
+
+#btnSearch {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(0,0,0) !important;
+    width: 260px;
+    border-color:rgb(92, 126, 102);
+    border-top: 0px;
+    border-width: 2px;
+    border-radius: 0% !important;
+
+}
+#btnSearch:hover {
+    background-color:rgb(220, 245, 215);
+}
 .card-link {
  color: rgba(0, 0, 0);
- 
+
 }
 
 

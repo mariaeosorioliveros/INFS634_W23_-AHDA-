@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap');
 
-
+/*Style accordion items: header, button, list*/
 .accordion-item {
     font-family: "Roboto", sans-serif !important;
     font-weight: 300;
@@ -20,14 +20,11 @@
     color: rgb(0,0,0) !important;
     box-shadow: none !important;
 }
-
 .accordion-button:hover {
    background-color: rgba(229, 250, 225, 0.5)!important;
 }
 
-ul {
-    list-style: none;
-}
+
 
 #btnSearch {
     font-family: "Roboto", sans-serif !important;
@@ -44,6 +41,8 @@ ul {
 #btnSearch:hover {
     background-color:rgb(220, 245, 215);
 }
+
+/*Style card-archive items*/
 .card-link {
  color: rgba(0, 0, 0);
 

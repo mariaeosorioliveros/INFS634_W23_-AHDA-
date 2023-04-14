@@ -21,7 +21,7 @@
 <?php include ('ahda-header.php');?>
   <main style="background-color:rgb(245, 253, 240);">
 <!--This is Bootstrap filter accordion form-->
-     <div class="container pt-5" style="background-color:rgb(245, 253, 240);">
+<div class="container pt-5" style="background-color:rgb(245, 253, 240);">
           <div class="row">
             <div class="col mx-auto py-5">
             <div class="accordion" id="accordionExample">
@@ -166,8 +166,6 @@
       </div>
 </div>
 <!--End of archival items columns-->     
-       </div>
-      </div>
     </main>
     <?php include ('ahda-footer.php');?>
 <!--This is Bootstrap 5.JS link-->

@@ -23,7 +23,7 @@
         <div class="col-12 py-5 text-center">
             <?php require 'database/db_login.php'; //load credentials
             //write query from database ==About table
-            $query= "SELECT `Title`,`Paragraph1`,`Paragraph2` FROM `About` WHERE id=2;";  
+            $query= "SELECT `Title`,`Paragraph1`,`Paragraph2` FROM `About` WHERE id=2 "; 
             //executing query to get results 
             $query_exc = $conn->query($query);
             while($results = $query_exc->fetch(PDO:: FETCH_ASSOC)) {

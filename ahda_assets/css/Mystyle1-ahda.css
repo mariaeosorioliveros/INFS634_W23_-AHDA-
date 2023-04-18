@@ -44,6 +44,7 @@ main{
     color: rgb(25, 51, 39);   
 }
 .navbar-nav {
+
     height: 38px;
     margin-bottom: 0%;
     font-family: "Roboto", sans-serif;
@@ -87,6 +88,14 @@ main{
 /*removing the default dropdown-item hover effect*/
 .dropdown-item {
     background-color: inherit !important;
+}
+
+@media only screen and (max-width: 992px){
+    .dropdown-menu.show {
+        flex-wrap:wrap;
+        max-height: 90px;
+        overflow-y:scroll;
+    }
 }
 
 /* This is the ahda-footer style */

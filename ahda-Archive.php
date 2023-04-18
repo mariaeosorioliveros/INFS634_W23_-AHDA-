@@ -35,19 +35,19 @@
                 <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                  <div class="accordion-body p-2">
                    <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">Manuscript</label>
                    </div> 
                    <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">Drawing</label>
                    </div>
                    <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">Dried samples</label>
                    </div>   
                    <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">Published book</label>
                    </div> 
                  </div>
@@ -63,19 +63,19 @@
           <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                  <div class="accordion-body">
                      <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">New Spain</label>
                      </div> 
                      <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">New Kingdom of Granada</label>
                      </div>
                      <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">Brazil</label>
                      </div>
                      <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">Viceroyalty of Peru</label>
                      </div>        
                   </div>
@@ -91,19 +91,19 @@
          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                    <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">quina</label>
                    </div>
                     <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">ipecacuanha</label>
                      </div>
                      <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">logwood</label>
                      </div>
                      <div class="form-check">
-                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                       <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                        <label class="form-check-label" for="flexCheckChecked">sarsaparilla</label>
                      </div>
                  </div>
@@ -119,15 +119,15 @@
         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
            <div class="accordion-body">
                  <div class="form-check">
-                   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                    <label class="form-check-label" for="flexCheckChecked">1500-1600</label>
                   </div>
                   <div class="form-check">
-                   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                    <label class="form-check-label" for="flexCheckChecked">1600-1700</label>
                   </div>
                   <div class="form-check">
-                   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                   <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                    <label class="form-check-label" for="flexCheckChecked">1700-1850</label>
                   </div>
              </div>
@@ -143,19 +143,19 @@
            <div id="collapseFifth" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                 <label class="form-check-label" for="flexCheckChecked">medicine</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                 <label class="form-check-label" for="flexCheckChecked">health</label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                 <label class="form-check-label" for="flexCheckChecked">commerce</label>
               </div>
                 <div class="form-check">
-                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                  <label class="form-check-label" for="flexCheckChecked">slavery</label>
                 </div>
             </div>

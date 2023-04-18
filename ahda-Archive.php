@@ -21,9 +21,9 @@
 <?php include ('ahda-header.php');?>
   <main style="background-color:rgb(245, 253, 240);">
 <!--This is Bootstrap filter accordion form-->
-<div class="container pt-5" style="background-color:rgb(245, 253, 240);">
+<div class="container px-2 pt-5" style="background-color:rgb(245, 253, 240);">
           <div class="row">
-            <div class="col mx-auto py-5">
+            <div class="col-4 mx-auto pe-0 py-5">
             <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
@@ -100,66 +100,64 @@
 <!--End of filter accordion form-->
 
 <!--First column archive items-->
-<div class="col ps-5 py-5">
+<div class="col-2 px-2 py-5">
   <div class="card pt-3" style="width: 200px; height:240px;">
           <img src="/ahda_assets/img/MP-8-homepage.jpg" class="card-img-top" alt="archive-item.1">
-            <div class="card-body py-5 text-center">
-              <a href="#" class="card-link">Card link</a>
+            <div class="card-body py-4 text-center">
+            <a href="ahda-item.1.php" class="card-link">Card link</a>
             </div>
     </div>
     <br/>  
     <div class="card py-3" style="width: 200px; height:240px;">
-           <i class="bi bi-file-earmark-text" style="font-size: 90px; color:rgb(63,143,105); text-align: center"></i>
+           <i class="bi bi-file-earmark-text" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
             <div class="card-body py-3 text-center">
               <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>
     </div>
 </div>
 <!--Second column archive items-->
-<div class="col py-5">
-<div class="card" style="width: 200px; height:240px;">
-              <img src="..." class="card-img-top" alt="...">
-            <div class="card-body py-5 text-center">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<div class="col-2 px-2 py-5">
+<div class="card pt-3" style="width: 200px; height:240px;">
+              <img src="/ahda_assets/img-archive/archive-item2.jpg" class="card-img-top" alt="archive-item.2" style=" height: 108px;">
+            <div class="card-body py-4 text-center">
               <a href="#" class="card-link">Card link</a>
             </div>
     </div>
 <br/>
       <div class="card py-3" style="width: 200px; height:240px;">
-           <i class="bi bi-file-earmark-text" style="font-size: 90px; color:rgb(63,143,105); text-align: center"></i>
+           <i class="bi bi-file-earmark-text" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
             <div class="card-body py-3 text-center">
               <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>
       </div>
 </div>
 <!--Third column archive items-->
-<div class="col py-5">
-<div class="card" style="width: 200px; height:240px;">
-              <img src="..." class="card-img-top" alt="...">
-            <div class="card-body py-5 text-center">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
+<div class="col-2 px-2 py-5">
+<div class="card py-3" style="width: 200px; height:240px;">
+              <i class="bi bi-bookmark" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
+            <div class="card-body py-3 text-center">
+              <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>
     </div>
     <br/>
     <div class="card py-3" style="width: 200px; height:240px;">
            <i class="bi bi-bookmark" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
-            <div class="card-body py-5 text-center">
+            <div class="card-body py-3 text-center">
               <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>
     </div>
 </div>
 <!--Fourth column archive items-->
-<div class="col pe-5 py-5">
+<div class="col-2 px-2 py-5">
 <div class="card py-3" style="width: 200px; height:240px;">
             <i class="bi bi-bookmark" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
-            <div class="card-body py-5 text-center">
+            <div class="card-body py-3 text-center">
               <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>
     </div>
     <br/>
     <div class="card py-3" style="width: 200px; height:240px;">
-           <i class="bi bi-file-earmark-text" style="font-size: 90px; color:rgb(63,143,105); text-align: center"></i>
+           <i class="bi bi-file-earmark-text" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
             <div class="card-body py-3 text-center">
               <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>

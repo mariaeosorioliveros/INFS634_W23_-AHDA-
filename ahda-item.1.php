@@ -33,11 +33,11 @@
 
 <!--Archival item metadata-->
         <div class="col-6">
-        <?php require 'database/db_login.php'; //database connection
-        //Fetch data from Item List table
-        $stmt= $conn->query("SELECT `Title`, `Creator`, `Date` ,`Description`,`Subject`,`Keywords`,`Institution holding the item`,`Reference number`,`Permanent URL` FROM `Item List` WHERE `ID_item`=1");
-        $data= $stmt->fetchALL(PDO::FETCH_ASSOC);
-        ?>
+          <?php require 'database/db_login.php'; //database connection
+          //Fetch data from Item List table
+          $stmt= $conn->query("SELECT `Title`, `Creator`, `Date` ,`Description`,`Subject`,`Keywords`,`Institution holding the item`,`Reference number`,`Permanent URL` FROM `Item List` WHERE `ID_item`=1");
+          $data= $stmt->fetchALL(PDO::FETCH_ASSOC);
+          ?>
         <div class="card" style="width: 640px">
             <div class="card-header" style="background-color:rgb(229, 250, 225);">
               <a href="ahda-Archive.php" class="card-link">Browse archive<i class="bi bi-chevron-double-right" style="font-size: 16px;"></i>Quina Collection<i class="bi bi-chevron-double-right" style="font-size: 16px;"></i>Samples of yellow quina</a>

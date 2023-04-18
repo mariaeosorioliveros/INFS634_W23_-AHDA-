@@ -8,7 +8,7 @@
     <title>AHDA:AHDA-02</title>
    <link rel= "icon" type="image/x-icon" href="/ahda_assets/img/logobookmarkwb.png">
    <link rel="stylesheet" type="text/css" href="/ahda_assets/css/bootstrap.css"/>
-   <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle7-ahda-item2.css">
+   <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle6-ahda-items.css">
    <link rel="stylesheet" type="text/css" href="/ahda_assets/css/Mystyle1-ahda.css"> 
    <link rel= "stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Cormorant+Garamond&family=Roboto&display=swap"> 
  <!--Bootstrap 5.CDN CSS link--> 
@@ -24,7 +24,10 @@
 </div> 
   <div class= "container-md pt-5 pb-3 px-1">
     <div class="row gx-4 py-2" style="min-height: 90vh">
-       <div class="col-6">col1</div>
+<!--Archival digitized item/pdf-->    
+       <div class="col-md-6 d-flex flex-column py-2 px-2 text-center"style="background-color:rgb(255, 255, 255);">
+        <embed id="item2pdf" src="/ahda_assets/pdf/fslopez_22_AHDA_item2.pdf" type="application/pdf" style="width:auto;height:650px;padding:0%;"></embed>
+       </div>
        <!--Archival item metadata-->
        <div class="col-md-6 d-flex flex-column ps-4 center">
               <?php require 'database/db_login.php'; //database connection

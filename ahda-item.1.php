@@ -25,7 +25,7 @@
      <div class="container-md pt-5 pb-3 px-1" style="background-color:rgba(245, 253, 240);">
       <div class="row gx-4 py-2" style="min-height: 95vh">
 <!--Archival digitized item/image--> 
-           <div class="col-md-6 d-flex flex-column py-3 px-2 text-center" id="imgCol" style="background-color: rgb(255, 255, 255);">
+           <div class="col-md-6 d-flex flex-column py-3 px-2 text-center" id="imgCol" style="background-color:rgb(255, 255, 255);">
                 <h3 style="font-family: Catamaran, sans-serif; font-size: 18px; font-weight:600;">Front and back of six dried samples of yellow quina</h3>
                 <img src="/ahda_assets/img-archive/MP-8.jpg"  alt="ahda-01.front-image" style="width: auto; height:auto;">
                 </br>

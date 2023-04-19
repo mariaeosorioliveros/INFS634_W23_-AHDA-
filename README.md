@@ -1,7 +1,6 @@
 # INFS634_W23_-AHDA-
 INFS634 Winter 2023 Individual Website Project
     AHDA: American Herbolaria Digital Archive
-
 # Project Title
 *AHDA:American Herbolaria Digital Archive*
 # Project Description
@@ -25,3 +24,6 @@ For development this project has used MAMP (for macOS): PHP version 7.4.33 and M
 *Contact: maria.osorio@mail.mcgill.ca
 
 ## Version History
+0.1: Designing the project
+0.2: Creating the project's prototype using FIGMA
+0.3: Developing the project with MAMP

@@ -37,19 +37,19 @@
                  <div class="accordion-body p-2">
                    <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="manuscript" name="type_of_document[]" id="flexCheckChecked1">
-                       <label class="form-check-label" for="flexCheckChecked">Manuscript</label>
+                       <label class="form-check-label" for="flexCheckChecked1">Manuscript</label>
                    </div> 
                    <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="drawing" name="type_of_document[]" id="flexCheckChecked2">
-                       <label class="form-check-label" for="flexCheckChecked">Drawing</label>
+                       <label class="form-check-label" for="flexCheckChecked2">Drawing</label>
                    </div>
                    <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="dried samples" name="type_of_document[]" id="flexCheckChecked3">
-                       <label class="form-check-label" for="flexCheckChecked">Dried samples</label>
+                       <label class="form-check-label" for="flexCheckChecked3">Dried samples</label>
                    </div>   
                    <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="published book"name="type_of_document[]" id="flexCheckChecked4">
-                       <label class="form-check-label" for="flexCheckChecked">Published book</label>
+                       <label class="form-check-label" for="flexCheckChecked4">Published book</label>
                    </div>
                  </div>
               </div>
@@ -65,19 +65,19 @@
                  <div class="accordion-body">
                      <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="New Spain" name="geographical_region[]" id="flexCheckChecked5">
-                       <label class="form-check-label" for="flexCheckChecked">New Spain</label>
+                       <label class="form-check-label" for="flexCheckChecked5">New Spain</label>
                      </div> 
                      <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="New Kingdom of Granada" name="geographical_region[]" id="flexCheckChecked6">
-                       <label class="form-check-label" for="flexCheckChecked">New Kingdom of Granada</label>
+                       <label class="form-check-label" for="flexCheckChecked6">New Kingdom of Granada</label>
                      </div>
                      <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="Brazil" name="geographical_region[]" id="flexCheckChecked7">
-                       <label class="form-check-label" for="flexCheckChecked">Brazil</label>
+                       <label class="form-check-label" for="flexCheckChecked7">Brazil</label>
                      </div>
                      <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="Viceroyalty of Peru" name="geographical_region[]" id="flexCheckChecked8">
-                       <label class="form-check-label" for="flexCheckChecked">Viceroyalty of Peru</label>
+                       <label class="form-check-label" for="flexCheckChecked8">Viceroyalty of Peru</label>
                      </div>    
                   </div>
              </div>
@@ -93,19 +93,19 @@
               <div class="accordion-body">
                    <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="quina" name="plant_name[]" id="flexCheckChecked9">
-                       <label class="form-check-label" for="flexCheckChecked">quina</label>
+                       <label class="form-check-label" for="flexCheckChecked9">quina</label>
                    </div>
                     <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="ipecacuanha" name="plant_name[]" id="flexCheckChecked10">
-                       <label class="form-check-label" for="flexCheckChecked">ipecacuanha</label>
+                       <label class="form-check-label" for="flexCheckChecked10">ipecacuanha</label>
                      </div>
                      <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="logwood" name="plant_name[]" id="flexCheckChecked11">
-                       <label class="form-check-label" for="flexCheckChecked">logwood</label>
+                       <label class="form-check-label" for="flexCheckChecked11">logwood</label>
                      </div>
                      <div class="form-check">
                        <input class="form-check-input" type="checkbox" value="sarsaparilla" name="plant_name[]" id="flexCheckChecked12">
-                       <label class="form-check-label" for="flexCheckChecked">sarsaparilla</label>
+                       <label class="form-check-label" for="flexCheckChecked12">sarsaparilla</label>
                      </div>
                 </div>
             </div>
@@ -121,15 +121,15 @@
            <div class="accordion-body">
                  <div class="form-check">
                    <input class="form-check-input" type="checkbox" value="1500-1600" name="dates[]" id="flexCheckChecked13">
-                   <label class="form-check-label" for="flexCheckChecked">1500-1600</label>
+                   <label class="form-check-label" for="flexCheckChecked13">1500-1600</label>
                   </div>
                   <div class="form-check">
                    <input class="form-check-input" type="checkbox" value="1600-1700" name="dates[]" id="flexCheckChecked14">
-                   <label class="form-check-label" for="flexCheckChecked">1600-1700</label>
+                   <label class="form-check-label" for="flexCheckChecked14">1600-1700</label>
                   </div>
                   <div class="form-check">
                    <input class="form-check-input" type="checkbox" value="1700-1850" name="dates[]" id="flexCheckChecked15">
-                   <label class="form-check-label" for="flexCheckChecked">1700-1850</label>
+                   <label class="form-check-label" for="flexCheckChecked15">1700-1850</label>
                   </div>
             </div>
          </div>
@@ -145,19 +145,19 @@
                <div class="accordion-body">
                      <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="medicine" name="themes[]" id="flexCheckChecked16">
-                        <label class="form-check-label" for="flexCheckChecked">medicine</label>
+                        <label class="form-check-label" for="flexCheckChecked16">medicine</label>
                       </div>
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="health" name="themes[]" id="flexCheckChecked17">
-                        <label class="form-check-label" for="flexCheckChecked">health</label>
+                        <label class="form-check-label" for="flexCheckChecked17">health</label>
                       </div>
                        <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="commerce"name="themes[]" id="flexCheckChecked18">
-                        <label class="form-check-label" for="flexCheckChecked">commerce</label>
+                        <label class="form-check-label" for="flexCheckChecked18">commerce</label>
                       </div>
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="slavery" name="themes[]" id="flexCheckChecked19">
-                        <label class="form-check-label" for="flexCheckChecked">slavery</label>
+                        <label class="form-check-label" for="flexCheckChecked19">slavery</label>
                      </div>
                   </div>
                </div>

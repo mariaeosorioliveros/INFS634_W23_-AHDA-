@@ -9,11 +9,14 @@ The aim of AHDA website project is to develop a website which works both as a re
 ### Dependencies
 * HTML 5
 * CSS
-* Bootstrap 5
-* MySQL
+* Bootstrap 5 latest version
+* PHP
 ### Installing
 
+
 ### Executing Program
+
+For development this project has used MAMP (for macOS): PHP version 7.4.33 and MySQL version 5.7.39
 
 ## Help
 

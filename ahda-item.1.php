@@ -55,7 +55,7 @@
                     <li class="list-group-item border-0"><b>Keywords:</b> <?php echo $row['Keywords'];?></li>
                     <li class="list-group-item border-0"><b>Institution holding the item:</b> <?php echo $row['Institution holding the item'];?></li>
                     <li class="list-group-item border-0"><b>Reference number: </b><?php echo $row['Reference number'];?></li>
-                    <li class="list-group-item"><b>Permanent URL:</b><a target="_blank" href= "<?php echo $row['Permanent URL'];?>"> <?php echo $row['Permanent URL']; ?> </a></li>
+                    <li class="list-group-item"><b>Permanent URL:</b><a target="_blank" href= "<?php echo $row['Permanent URL'];?>"> <?php echo $row['Permanent URL']; ?></a></li>
                 <?php endforeach;?>
             </ul> 
          </div>

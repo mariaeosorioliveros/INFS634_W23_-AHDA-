@@ -28,7 +28,7 @@
         <img src="/ahda_assets/img/MP-8-homepage.jpg" class="float-start" alt="archive-image" width="350" height="auto">
         <p class="h3">Archive</p><br/>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <button type="button" class="btn position-absolute bottom-0 end-0" style="background-color: rgba(25, 51, 39, 0.5); border-radius:0; width: 60px; height: 50px;" >  
+        <button type="button" class="btn position-absolute bottom-0 end-0" style="background-color: rgba(25, 51, 39, 0.5); border-radius:0; width: 60px; height: 50px;">   
         <i class="bi bi-caret-right-fill" style="font-size: 28px; fill:rgb(25, 51, 39); text-align: center" ></i>
         </button>
     </div>

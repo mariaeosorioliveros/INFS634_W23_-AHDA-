@@ -22,6 +22,6 @@ For development this project has used MAMP (for macOS): PHP version 7.4.33 and M
 
 ## Author (s)
 Maria Eugenia Osorio Oliveros
-maria.osorio@mail.mcgill.ca
+Contact: maria.osorio@mail.mcgill.ca
 
 ## Version History

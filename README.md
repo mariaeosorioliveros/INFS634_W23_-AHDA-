@@ -12,6 +12,7 @@ The aim of AHDA website project is to develop a website which works both as a re
 * PHP
 ### Installing
 
+* Clone this repository to your desktop
 
 ### Executing Program
 
@@ -20,8 +21,8 @@ For development this project has used MAMP (for macOS): PHP version 7.4.33 and M
 ## Help
 
 ## Author (s)
-*Maria Eugenia Osorio Oliveros
-*Contact: maria.osorio@mail.mcgill.ca
+* Maria Eugenia Osorio Oliveros
+* Contact: maria.osorio@mail.mcgill.ca
 
 ## Version History
 0.1: Designing the project

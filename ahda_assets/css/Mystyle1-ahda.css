@@ -4,26 +4,27 @@
     padding:0; 
     box-sizing: border-box; 
 }
-b {
-    position: relative;
-    padding-bottom: 70px;
-    min-height:fit-content; 
+body {
+    position:absolute;
+    height: 100%;
+    padding-bottom: 74px; 
 }
-main{
+main {
+    min-height: 100%;
     width:100vw;
     margin: auto;
 }
-/*This is the homepage main sections style*/
+/*This is the homepage sections style*/
 #welcomeMain {
     font-family: "Catamaran", sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: rgb(2, 4, 3);
 }
-.h3{
+#mainTitles {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(11, 18, 9);
     text-align: center;
 }
@@ -33,18 +34,20 @@ main{
     font-size: 16px;
     color: rgb(2, 4, 3);
 }
-
+   
 /* this is header style */
-
+header {
+  width: 100%;
+  padding-top: 0%;
+}
 #logo-title {
     font-family: "Cormorant Garamond", serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     color: rgb(25, 51, 39);   
 }
 .navbar-nav {
-
     height: 38px;
     margin-bottom: 0%;
     font-family: "Roboto", sans-serif;
@@ -57,7 +60,6 @@ main{
 }
 
 /*dropdown container style*/
-
 .dropdown-menu.show {
     display:flex;
     margin-top: 0px !important;
@@ -90,26 +92,22 @@ main{
     background-color: inherit !important;
 }
 
-@media only screen and (max-width: 992px){
-    .dropdown-menu.show {
-        flex-wrap:wrap;
-        max-height: 90px;
-        overflow-y:scroll;
-    }
-}
+
 
 /* This is the ahda-footer style */
 footer {
+    position:relative;
+    bottom: 0;
     width: 100%;
-    height: 70px; /*footer height*/
-    position: relative;
-    bottom: 0%;
+    height: 74px; /*footer height*/
+    margin-top: auto;
+    padding-bottom: 0%;
 }
 #footer-line {
     font-family: "Cormorant Garamond", serif;
     font-style: normal;
     color: rgb(229, 250, 225);
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 300;
+    font-size: 16px;
     text-align: center;
 }

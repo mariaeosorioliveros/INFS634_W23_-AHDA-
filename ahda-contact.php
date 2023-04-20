@@ -3,26 +3,29 @@
   $date = new DateTime();
   $TimeDate = $date->format('Y-m-d H:i:s');
 
-  require 'database/db_login.php'; //load credentials
+  require 'database/db_login.php'; //connecting to database
 
   if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])){ //check if name, email, and message is submitted using POST method
 
-//`Contact`==table in INFS634-AHDA-Project database // extracting data from the database
+//`Contact`==table in INFS634-AHDA-Project database // 
+
   $sql= "INSERT INTO `Contact` (`name`, `email`, `message`) VALUES ('".$_POST['name']."', '".$_POST['email']."', '".$_POST['message']."')";
   $stmt = $conn->prepare($sql);
+
     //Creating New Event
     if( $stmt->execute() ){  //executing query to update the database 
 
-        $confirm="Contact form submitted."; //Message to show contact form was submitted
+      $confirm="Contact form submitted."; //Message to show contact form was submitted
 
     } else {
-            $confirm="Error in submitting contact form."; //Message to show error in submitting form
+      $confirm="Error in submitting contact form."; //Message to show error in submitting form
     }
-  }
- 
-  $conn=null;  
-?>
 
+  }
+  // closing DB connection
+  $conn=null;
+?>
+  
 <!DOCTYPE HTML>
 <html lang="en">
   <head> 
@@ -44,16 +47,16 @@
   <?php include ('ahda-header.php');?>
 <main style="background-color: rgb(245,253,240);">
   <div class="container-fluid" style="background-color:rgba(92,126,102,0.75);">
-   <div class= "row pt-3 pb-0">
-    <div class="col-12">
-       <h2 id="contact">Contact Us</h2>
+   <div class= "row pt-2 pb-0">
+    <div class="col-md-12">
+       <h2 id="contact"><strong style="color:rgb(25, 51, 39)">C</strong>ontact <strong style="color:rgb(25, 51, 39)">U</strong>s</h2>
        <p id="contactline"> WE WOULD LIKE TO HEAR YOUR QUESTIONS, COMMENTS, SUGGESTIONS, AND FEEDBACK!</p>
     </div>
    </div>
   </div> 
   <div class="container py-5">
     <div class="row">
-     <div class="col-lg-6 py-4 mx-auto">
+     <div class="col-md-6 py-4 mx-auto">
 <!--Start of Bootstrap 5 contact form--> 
     <form action="#" method="POST" id="form"><!--Adding action and POST method type for this form-->       
 <!--Name input-->    
@@ -75,17 +78,19 @@
     <div class="mb-3 py-2 text-end">
        <h2 style="font-family: Catamaran,sans-serif;font-size: 19px; font: weight 300px; text-align:center">Thank you!</h2>
        <button class="btn btn-primary" type="submit">Send <img src="/ahda_assets/img/send-message-svgrepo-com.svg" alt="send-icon" width="20" height="auto" style="fill:rgb(11,18,9); text-align:end"></button>
- <!--Submission output-->  
-       <?php echo "<p style='font-family:Catamaran, sans-serif;font-size: 16px'>".$confirm."</p>";?>
+   <!--Submission output-->   
+      <?php echo "<p style='font-family:Catamaran, sans-serif;font-size:16px'>".$confirm."</p>";?> 
+    </div>
     </div>
    </div>
-  </div>
- </form>
+  </form>
 <!--End of Bootstrap 5 contact form-->    
-</div>
+  </div>
 </main> 
   <?php include ('ahda-footer.php');?>
 <!--This is Bootstrap 5.JS link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html> 
+
+

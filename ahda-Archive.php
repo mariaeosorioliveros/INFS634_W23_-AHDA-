@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-<html>
 <html lang="en">
 <head>
  <meta charset="utf-8">
@@ -17,8 +16,8 @@
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head>
 
-  <body>
-<?php include ('ahda-header.php');?>
+ <body>
+  <?php include ('ahda-header.php');?>
   <main style="background-color:rgb(245, 253, 240);">
       <div class="container-md px-2 pt-5" style="background-color:rgb(245, 253, 240);">
         <div class="row" style="min-height:95vh"">
@@ -182,65 +181,65 @@
             </div>
     </div>
     <br/>  
-    <div class="card py-3" style="width: 200px; height:240px;">
+       <div class="card py-3" style="width: 200px; height:240px;">
            <i class="bi bi-file-earmark-text" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
             <div class="card-body py-3 text-center">
               <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>
-    </div>
-</div>
+       </div>
+   </div>
 <!--Second column archive items-->
-<div class="col-md-2 d-flex flex-column px-2 py-5">
-<div class="card pt-3" style="width: 200px; height:240px;">
+     <div class="col-md-2 d-flex flex-column px-2 py-5">
+       <div class="card pt-3" style="width: 200px; height:240px;">
               <img src="/ahda_assets/img-archive/archive-item2.jpg" class="card-img-top" alt="archive-item.2" style=" height: 108px;">
             <div class="card-body py-4 text-center">
               <a href="ahda-item.2.php" class="card-link"><?php echo $titles[1];?></a>
             </div>
-    </div>
-<br/>
+       </div>
+   <br/>
       <div class="card py-3" style="width: 200px; height:240px;">
            <i class="bi bi-file-earmark-text" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
             <div class="card-body py-3 text-center">
               <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>
       </div>
-</div>
+    </div>
 <!--Third column archive items-->
-<div class="col-md-2 d-flex flex-column px-2 py-5">
-<div class="card py-3" style="width: 200px; height:240px;">
+    <div class="col-md-2 d-flex flex-column px-2 py-5">
+       <div class="card py-3" style="width: 200px; height:240px;">
               <i class="bi bi-bookmark" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
             <div class="card-body py-3 text-center">
               <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>
-    </div>
-    <br/>
-    <div class="card py-3" style="width: 200px; height:240px;">
+       </div>
+   <br/>
+     <div class="card py-3" style="width: 200px; height:240px;">
            <i class="bi bi-bookmark" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
             <div class="card-body py-3 text-center">
               <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>
+       </div>
     </div>
-</div>
 <!--Fourth column archive items-->
-<div class="col-md-2 d-flex flex-column px-2 py-5">
-<div class="card py-3" style="width: 200px; height:240px;">
+    <div class="col-md-2 d-flex flex-column px-2 py-5">
+       <div class="card py-3" style="width: 200px; height:240px;">
             <i class="bi bi-bookmark" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
             <div class="card-body py-3 text-center">
               <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>
-    </div>
+       </div>
     <br/>
     <div class="card py-3" style="width: 200px; height:240px;">
            <i class="bi bi-file-earmark-text" style="font-size: 70px; color:rgb(63,143,105); text-align: center"></i>
             <div class="card-body py-3 text-center">
               <a href="#" class="card-link">Lorem ipsum Lorem ipsum dolor sit amet</a>
             </div>
-      </div>
-</div>
+         </div>
+     </div>
 <!--End of archival items columns-->     
-    </main>
+ </main>
     <?php include ('ahda-footer.php');?>
 <!--This is Bootstrap 5.JS link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
-  </body>
+ </body>
 </html>

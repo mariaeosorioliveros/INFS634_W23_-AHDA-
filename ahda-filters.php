@@ -9,7 +9,7 @@ $dates = isset($_POST['dates']) ? $_POST['dates'] : '';
 $themes = isset($_POST['themes']) ? $_POST['themes'] : '';
 
 // build SQL query
-$sql = "SELECT * FROM `filters` WHERE ";
+$sql = "SELECT * FROM `filters` WHERE 1=1";
 $conditions = array();
 
 if (!empty($type_of_document)) {

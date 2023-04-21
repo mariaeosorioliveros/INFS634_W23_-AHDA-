@@ -23,8 +23,8 @@
         <div class="row" style="min-height:95vh"">
 <!--This is Bootstrap filter accordion form-->
         <div class="col-4 d-flex flex-column py-5">
-        <form action="ahda-filters.php" method="POST">
-            <div class="accordion" id="accordionExample">
+          <div class="accordion" id="accordionExample">
+            <form action="ahda-filters.php" method="POST"> 
 <!--This is type of document filter-->              
             <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -161,9 +161,9 @@
                   </div>
                </div>
             </div>
-            <button type="button" class="btn btn-lg" id="btnSearch">Search <i class="bi bi-chevron-double-right"></i></button>
-          </div>
+            <button type="button" value="search" name="search" class="btn btn-lg" id="btnSearch">Search <i class="bi bi-chevron-double-right"></i></button>
        </form>
+      </div>
     </div>
 <!--End of filter accordion form-->
 

@@ -29,7 +29,7 @@
   <div class="container-md px-0 py-4">
       <div class="row py-3 gx-4">
 <!--First card-->        
-        <div class="col-md-3">
+        <div class="col-md-3 d-flex flex-column">
           <div class="card text-center" style="width: 290px; height:400px; background-color:rgb(229,250,225);">
             <img src="/ahda_assets/img/nwn_dhinitiative-box1.jpg" class="card-img-top" alt="other-projectsNewWorld" width="300" height="140">
              <div class="card-body">
@@ -41,22 +41,23 @@
          </div>
        </div> 
  <!--Second card-->       
-      <div class= "col-md-3">
+      <div class= "col-md-3 d-flex flex-column">
         <div class="card text-center" style="width: 290px; height:400px; background-color:rgb(230,241,201);">
             <img src="/ahda_assets/img/lab_plant-humanities-box2.jpg" class="card-img-top" alt="other-projectsPlantH" width= "300" height="140">
             <div class="card-body">
              <p class="card-text1">Plant Humanities Lab</p>
              <p class="card-text">Dumbarton Oaks.<br/>Harvard University</p>
+              </br>
              <p>Website:</p>
                 <a class="link" href="https://lab.plant-humanities.org/" target="_blank">Plant Humanities Lab</a>
             </div>
         </div>    
       </div>
   <!--Third card-->    
-    <div class="col-md-3">
+    <div class="col-md-3 d-flex flex-column">
         <div class="card text-center pb-4" style="width: 290px; height:400px; background-color: rgb(255,255,255);">
              <img src="/ahda_assets/img/catalogocalamari-box3.jpg" class="card-img-top" alt="other-projectsCalamari" width= "300" height="140">
-        <div class="card-body">
+          <div class="card-body">
             <p class="card-text1">Calamarí Catalogue Historical documents from Cartagena's province (only in Spanish)</p>
             <p class="card-text">Fundación Cartago. Angelina Araújo Velez.</p>
             <p>Website:</p> 
@@ -65,21 +66,21 @@
         </div>
     </div>  
   <!--Fourth card-->       
-    <div class="col-md-3">
+    <div class="col-md-3 d-flex flex-column">
        <div class="card text-center" style="width: 290px; height:400px; background-color: rgb(92, 126, 102)">
             <img src="/ahda_assets/img/otherdigitalprojects-box4.jpg" class="card-img-top" alt="other-projectsEcda" width="300" height="140">
-       <div class="card-body">
+        <div class="card-body">
           <p class="card-text1">Ecda:Early Caribbean Digital Archive</p>
           <p class="card-text"> Northeastern University</p>
+          </br>
           <p>Website:</p>
            <a class="link" href="https://ecda.northeastern.edu/" target="_blank"> Ecda</a>
+        </div>
        </div>
-      </div>
-     </div> 
+      </div> 
  <!--End of cards-->         
     </div>
-  </div>
- </div>  
+  </div>  
 </main>
  <?php include ('ahda-footer.php');?>
 <!--This is Bootstrap 5.JS link-->

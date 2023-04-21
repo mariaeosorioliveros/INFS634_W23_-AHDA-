@@ -11,7 +11,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item"> 
           <a class="nav-link active" href="ahda-index.php"><i class="bi bi-house-door" style="font-size: 19px; fill: rgb(11, 18, 9); vertical-align:baseline"></i></a>

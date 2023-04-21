@@ -92,6 +92,40 @@ header {
     background-color: inherit !important;
 }
 
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+      max-height: initial;
+    }
+    .nav-item {
+      max-height: initial;
+    }
+    .navbar-toggler {
+      margin-top: 8px;
+    } 
+    .dropdown-menu {
+      position: static !important;
+      display: none;
+      float: none;
+      max-width: 100%;
+      margin-top: 0;
+      background-color: rgb(230,241,201);
+      border: 0;
+      box-shadow: none;
+    }
+    .dropdown-menu a {
+      display: block;
+      padding: 8px 16px;
+    }
+  
+    .dropdown-menu.show {
+      display: block;
+      width: 100%;
+    }
+  }
+  
+
+
+
 
 
 /* This is the ahda-footer style */
